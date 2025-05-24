@@ -1,27 +1,31 @@
 import styled from 'styled-components/native';
-import {TouchableOpacity} from 'react-native';
+import { TouchableOpacity } from 'react-native';
 
 export const Container = styled.View`
-    background-color: #001F3D;
-    height: 65px;
-    width: 100%
-    position: absolute;
-`
+  background-color: #001F3D;
+  height: 70px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+`;
+
 export const NavButton = styled(TouchableOpacity)`
-    flex: 1;
-    max-height: 85%;
-    min-height: 85%;
-    justify-content: center;
-    align-items: center;
-    width: 85%px;
-`
+  align-items: center;
+  justify-content: center;
+  margin: 0 15px;
+`;
+
+export const Icon = styled.Image`
+  width: 28px;
+  height: 28px;
+  margin-bottom: 2px;
+`;
 
 export const Title = styled.Text`
-    color: #ffffff;
-    font-size: 8px;
-    font-weight: bold;
-`
-export const Icon = styled.Image` 
-    height: 85%;
-    width: 85%;
-`
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+`;
