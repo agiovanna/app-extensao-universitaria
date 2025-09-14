@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
         fontSize: width * 0.11, // Tamanho proporcional à largura
         color: 'white',
         fontFamily: theme.FONTS.BOLD,
-        marginLeft: '12%',
+        marginLeft: '8%',
         marginTop: 5
     },
     text2: {
@@ -80,7 +80,7 @@ const styles = StyleSheet.create({
         paddingRight: width * 0.2, // 20% da largura
         marginTop: 10,
         fontFamily: theme.FONTS.MEDIUM, 
-        marginLeft: '12%'
+        marginLeft: '8%'
     },
     text4: {
         fontSize: width * 0.08, // Tamanho proporcional à largura
